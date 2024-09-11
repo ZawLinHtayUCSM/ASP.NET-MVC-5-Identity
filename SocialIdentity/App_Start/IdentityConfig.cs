@@ -21,9 +21,9 @@ namespace SocialIdentity
         public async Task SendAsync(IdentityMessage message)
         {
 
-            // Use the SendGrid APP Key after you created SendGrid account
+            // Use the  after you created SendGrid account
             string emptyString = @"";
-
+// empty string for key
             var client = new SendGridClient(emptyString);
             var from = new EmailAddress("", "K. ");
 
