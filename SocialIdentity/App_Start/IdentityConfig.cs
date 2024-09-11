@@ -22,7 +22,7 @@ namespace SocialIdentity
         {
 
             // Use the SendGrid APP Key after you created SendGrid account
-            string key = @"SG.-DA.";
+            string key = @"";
 
             var client = new SendGridClient(key);
             var from = new EmailAddress("", "K. ");
