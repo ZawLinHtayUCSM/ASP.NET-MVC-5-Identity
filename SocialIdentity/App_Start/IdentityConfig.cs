@@ -22,10 +22,10 @@ namespace SocialIdentity
         {
 
             // Use the SendGrid APP Key after you created SendGrid account
-            string key = @"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";
+            string key = @"SG.-DA.";
 
             var client = new SendGridClient(key);
-            var from = new EmailAddress("brightzaw.zlh1991@gmail.com", "K.Zaw Lin");
+            var from = new EmailAddress("", "K. ");
 
             var subject = message.Subject;
             var to = new EmailAddress(message.Destination, "Receiver Name");

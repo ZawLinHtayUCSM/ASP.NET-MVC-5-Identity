@@ -48,25 +48,25 @@ namespace SocialIdentity
 
             // Uncomment the following lines to enable logging in with third party login providers
             app.UseGitHubAuthentication(
-                clientId: "f172788cab08698de91e",
-                clientSecret: "17e133e1b2599530cbcd7b8c01344e680ea");
+                clientId: "",
+                clientSecret: "");
 
             app.UseMicrosoftAccountAuthentication(
-                clientId: "f172788cab08698de91e",
-                clientSecret: "211757212e42e574906db4e7c0a9e");
+                clientId: "",
+                clientSecret: "aaa");
 
             app.UseTwitterAuthentication(
-               consumerKey: "f172788cab08698de91e",
-               consumerSecret: "211757212e42e57489a906db4e7a9e");
+               consumerKey: "f",
+               consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "747665592954888",
-               appSecret: "211757212e42e57489a906db");
+               appId: "",
+               appSecret: "");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "f172788cab08698de91e",
-                ClientSecret = "211757212e42e57489a906db"
+                ClientId = "",
+                ClientSecret = ""
             });
         }
     }
