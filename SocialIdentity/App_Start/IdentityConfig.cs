@@ -22,9 +22,9 @@ namespace SocialIdentity
         {
 
             // Use the SendGrid APP Key after you created SendGrid account
-            string key = @"";
+            string emptyString = @"";
 
-            var client = new SendGridClient(key);
+            var client = new SendGridClient(emptyString);
             var from = new EmailAddress("", "K. ");
 
             var subject = message.Subject;
